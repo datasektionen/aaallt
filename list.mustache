@@ -1,0 +1,22 @@
+<ul>
+    {{#systems}}
+        <li>
+            <img
+                src="{{ img }}"
+                {{! If the image src doesn't exist, replace it with an empty box. onerror must be null to avoid looping. }}
+                onerror="this.onerror=null; this.src=null" alt=""
+                {{! Add an image style only if it is defined. }}
+                {{#img-style}}
+                    style="{{.}}"
+                {{/img-style}}
+            />
+
+            <a href="{{link}}"
+                {{#style}}
+                    style={{.}}
+                {{/style}}
+            >{{ name }}</a>
+            - {{ descr }}
+        </li>
+    {{/systems}}
+</ul>

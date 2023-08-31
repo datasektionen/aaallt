@@ -29,7 +29,10 @@
     <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffa726">
 </head>
-<body>
+<body onload="renderList()">
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="render.js"></script>
+
     <div id="methone-container-replace"></div>
     <div id="application" class="orange">
         <header>
@@ -50,131 +53,9 @@
             <p>Det verkar som du gått in på en domän som inte existerar än. Vi är ledsna för det. Det är nästan så att vi skulle vilja gräva upp det begravda Purjomonstret för att glömma sorgen.</p>
             <h2>Andra system</h2>
             <p>Kanske letade du efter något av följande system?</p>
-            <ul>
-                <li>
-                    <img src="https://datasektionen.se/icons/favicon-96x96.png" />
-                    <a href="https://datasektionen.se">Datasektionen.se</a>
-                     - Hitta all information och nyheter om sektionen
-                </li>
-                <li>
-                    <img src="https://cashflow.datasektionen.se/static/images/logos/favicon-96x96.png" />
-                    <a href="https://cashflow.datasektionen.se" style="color:#216C2A">Cashflow</a>
-                     - Få tillbaka pengar för dina utlägg
-                </li>
-                <li>
-                    <img src="https://bokning.datasektionen.se/logos/favicon-96x96.png" />
-                    <a href="https://bokning.datasektionen.se" style="color:#03a9f4">Bokningssystemet</a>
-                     - Boka META, Mötesrummet, Sektionsbilen eller kameran
-                </li>
-                <li>
-                    <img src="https://userfiles.uptimerobot.com/img/623458-1649958820-icon.png" />
-                    <a href="https://status.datasektionen.se" style="color:#32cd32">Status</a>
-                     - Ta reda på om något av våra system är nere
-                </li>
-                <li>
-                    <img src="https://dfunkt.datasektionen.se/images/logos/favicon-96x96.png" />
-                    <a href="https://dfunkt.datasektionen.se" style="color:#9c27b0">Dfunkt</a>
-                     - Vem gör vad egentligen?
-                </li>
-                <li>
-                    <img src="https://ston.datasektionen.se/images/logos/favicon-96x96.png" />
-                    <a href="https://ston.datasektionen.se" style="color:#ec5f99">STÖn</a>
-                     - Suck
-                </li>
-                <li>
-                    <img src="https://mentometer.datasektionen.se/images/icons/favicon-96x96.png" />
-                    <a href="https://mentometer.datasektionen.se" style="color: #ef5350">Mentometer</a>
-                     - Säg ja, nej eller kanske
-                </li>
-                <li>
-                    <img src="https://aaallt.datasektionen.se/images/icons/favicon-96x96.png" />
-                    <a href="https://aaallt.datasektionen.se">Aaallt</a>
-                     - Det här "systemet"
-                </li>
-                <li>
-                    <img src="https://betting.datasektionen.se/images/icons/favicon-96x96.png" />
-                    <a href="https://betting.datasektionen.se" style="color: #ffca28">Betting</a>
-                     - När slutar SM?
-                </li>
-                <li>
-                    <img src="https://budget.datasektionen.se/images/icons/favicon-96x96.png" />
-                    <a href="https://budget.datasektionen.se" style="color:#78909c">Budgetsystemet</a>
-                     - Se vad sektionen gör av sina pengar
-                </li>
-                <li>
-                    <img src="https://tv.datasektionen.se/favicon.png" />
-                    <a href="https://tv.datasektionen.se" style="color:#009688">META-TV</a>
-                     - Nå ut till hundratals genom META-TV
-                </li>
-                <li>
-                    <img src="https://dbu.gg/favicon/favicon-96x96.png" />
-                    <a href="https://dbu.gg" style="color:#444">dbuggen</a>
-                     - Når ut till hundratals genom allt förutom TV
-                </li>
-                <li>
-                    <img src="https://ddagen.se/img/favicon.ico" />
-                    <a href="https://ddagen.se" style="color:#ec5f99">ddagen.se</a>
-                     - Allt om D-dagen
-                </li>
-                <li>
-                    <img src="https://static.datasektionen.se/favicon-96x96.png" />
-                    <a href="https://static.datasektionen.se" style="color:#ff7043">Yoggi</a>
-                     - Ladda upp statiska filer i sektionssyfte
-                </li>
-                <li>
-                    <img src="https://pls.datasektionen.se/images/logos/favicon-96x96.png" />
-                    <a href="https://pls.datasektionen.se" style="color:#9c27b0">Pls</a>
-                     - Lär dig ta ett nej
-                </li>
-                <li>
-                  <img src="https://calypso.datasektionen.se/favicon-96x96.png" />
-                  <a href="https://calypso.datasektionen.se" style="color:#ec407a">Nyhetssystemet</a>
-                     - Skriv och posta nyheter till hemsidan
-                </li>
-                <li>
-                    <img src="https://motioner.datasektionen.se/static/gfx/icons/favicon-96x96.png" />
-                    <a href="https://motioner.datasektionen.se" style="color:#7e57c2">Motioner</a>
-                     - Skriv snygga motioner, propositioner och motionssvar
-                </li>
-                <li>
-                    <img src="https://wiki.datasektionen.se/resources/assets/skold_svart_thumb.png" />
-                    <a href="https://wiki.datasektionen.se/" style="color:#ff9800">Sektionswikin</a>
-                    - Datasektionens wiki. Här hittar du massvis ackumulerad kunskap. Har du en fråga hur du gör något? Kolla här!
-                </li>
-                <li>
-                    <img src="https://durn.datasektionen.se/public/favicon.png" />
-                    <a href="https://durn.datasektionen.se/" style="color:#ec5f99">DUrn</a>
-                    - Röstningssystem vid urnval.
-                </li>
-                <li>
-                    <img
-                        src="https://metaspexet.se/images/favicon.svg"
-                        style="background-color: #6f1d1b; border: 2px solid #6f1d1b; border-radius: 50%"
-                    />
-                    <a href="https://metaspexet.se/" style="color:#ec5f99">Metaspexet</a>
-                    - Datas och Medias spex!
-                </li>
-                <li>
-                    <img src="http://dkm.io/favicon.ico" />
-                    <a href="http://dkm.io/" style="color:#000000">DKM</a>
-                    - Datasektionens klubbmästeri.
-                </li>
-                <li>
-                    <img src="https://duckumentation.datasektionen.se/images/icons/favicon-96x96.png" />
-                    <a href="https://duckumentation.datasektionen.se/" style="color:#4caf50">Duckumentation</a>
-                    - Dokumentation av API:er
-                </li>
-                <li>
-                    <img src="https://djulkalendern.se/favicon.png" />
-                    <a href="https://djulkalendern.se" style="color:#B90e0a">dJulkalendern</a>
-                    - Vem är bäst på att data&trade;?
-                </li>
-                <li>
-                    <img src="https://dsekt.se/favicon-96x96.png" />
-                    <a href="https://dsekt.se" style="color:#03a9f4">Pico</a>
-                    - Länkförkortare
-                </li>
-            </ul>
+
+            <div id="list-target">Loading...</div>
+
             <h2>Bygg ett system på den här domänen!</h2>
             <p>Har du en ball idé på vad som skulle kunna finnas på den här sidan? Tveka inte att komma på en Hackerkväll som IOR arrangerar. Där kan vi berätta mer om hur man går tillväga. Om du inte vill göra det själv finns det stor chans att någon annan vill ta tag i det!</p>
             <p>IORs (Crash &amp; Bränns) Hackerkvällar brukar äga rum vissa torsdagar i datorsal Grå på plan 5 i E-huset. Mer information och event kommer alltid på Facebook med mer eller mindre kort varsel. Så se till att gilla <a href="https://www.facebook.com/informationsorganet/">Informationsorganet på Facebook</a>!</p>
