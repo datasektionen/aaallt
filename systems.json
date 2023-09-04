@@ -1,0 +1,171 @@
+{
+  "systems":
+  [
+    {
+      "name": "Datasektionen.se",
+      "description": "Hitta all information och nyheter om sektionen",
+      "link": "https://datasektionen.se",
+      "img": "https://datasektionen.se/icons/favicon-96x96.png"
+    },
+    {
+      "name": "Cashflow",
+      "description": "Få tillbaka pengar för dina utlägg",
+      "link": "https://cashflow.datasektionen.se",
+      "img": "https://cashflow.datasektionen.se/static/images/logos/favicon-96x96.png",
+      "style": "color:#216C2A"
+    },
+    {
+      "name": "Bokningssystemet",
+      "description": "Boka META, Mötesrummet, Sektionsbilen eller kameran",
+      "link": "https://bokning.datasektionen.se",
+      "img": "https://bokning.datasektionen.se/logos/favicon-96x96.png",
+      "style": "color:#03a9f4"
+    },
+    {
+      "name": "Status",
+      "description": "Ta reda på om något av våra system är nere",
+      "link": "https://status.datasektionen.se",
+      "img": "https://userfiles.uptimerobot.com/img/623458-1649958820-icon.png",
+      "style": "color:#32cd32"
+    },
+    {
+      "name": "Dfunkt",
+      "description": "Vem gör vad egentligen?",
+      "link": "https://dfunkt.datasektionen.se",
+      "img": "https://dfunkt.datasektionen.se/images/logos/favicon-96x96.png",
+      "style": "color:#9c27b0"
+    },
+    {
+      "name": "STÖn",
+      "description": "Suck",
+      "link": "https://ston.datasektionen.se",
+      "img": "https://ston.datasektionen.se/images/logos/favicon-96x96.png",
+      "style": "color:#ec5f99"
+    },
+    {
+      "name": "Mentometer",
+      "description": "Säg ja, nej eller kanske",
+      "link": "https://mentometer.datasektionen.se",
+      "img": "https://mentometer.datasektionen.se/images/icons/favicon-96x96.png",
+      "style": "color: #ef5350"
+    },
+    {
+      "name": "Aaallt",
+      "description": "Det här \"systemet\"",
+      "link": "https://aaallt.datasektionen.se",
+      "img": "https://aaallt.datasektionen.se/images/icons/favicon-96x96.png",
+      "style": "color: #ffca28"
+    },
+    {
+      "name": "Betting",
+      "description": "När slutar SM?",
+      "link": "https://betting.datasektionen.se",
+      "img": "https://betting.datasektionen.se/images/icons/favicon-96x96.png",
+      "style": "color:#78909c"
+    },
+    {
+      "name": "Budgetsystemet",
+      "description": "Se vad sektionen gör av sina pengar",
+      "link": "https://budget.datasektionen.se",
+      "img": "https://budget.datasektionen.se/images/icons/favicon-96x96.png"
+    },
+    {
+      "name": "META-TV",
+      "description": "Nå ut till hundratals genom META-TV",
+      "link": "https://tv.datasektionen.se",
+      "img": "https://tv.datasektionen.se/favicon.png",
+      "style": "color:#009688"
+    },
+    {
+      "name": "dbuggen",
+      "description": "Når ut till hundratals genom allt förutom TV",
+      "link": "https://dbu.gg",
+      "img": "https://dbu.gg/favicon/favicon-96x96.png",
+      "style": "color:#444"
+    },
+    {
+      "name": "ddagen.se",
+      "description": "Allt om D-dagen",
+      "link": "https://ddagen.se",
+      "img": "https://ddagen.se/img/favicon.ico",
+      "style": "color:#ec5f99"
+    },
+    {
+      "name": "Yoggi",
+      "description": "Ladda upp statiska filer i sektionssyfte",
+      "link": "https://static.datasektionen.se",
+      "img": "https://static.datasektionen.se/favicon-96x96.png"
+    },
+    {
+      "name": "Pls",
+      "description": "Lär dig ta ett nej",
+      "link": "https://pls.datasektionen.se",
+      "img": "https://pls.datasektionen.se/images/logos/favicon-96x96.png",
+      "style": "color:#9c27b0"
+    },
+    {
+      "name": "Nyhetssystemet",
+      "description": "Skriv och posta nyheter till hemsidan",
+      "link": "https://calypso.datasektionen.se",
+      "img": "https://calypso.datasektionen.se/favicon-96x96.png",
+      "style": "color:#ec407a"
+    },
+    {
+      "name": "Motioner",
+      "description": "Skriv snygga motioner, propositioner och motionssvar",
+      "link": "https://motioner.datasektionen.se",
+      "img": "https://motioner.datasektionen.se/static/gfx/icons/favicon-96x96.png",
+      "style": "color:#7e57c2"
+    },
+    {
+      "name": "Sektionswikin",
+      "description": "Datasektionens wiki. Här hittar du massvis ackumulerad kunskap. Har du en fråga hur du gör något? Kolla här!",
+      "link": "https://wiki.datasektionen.se/",
+      "img": "https://wiki.datasektionen.se/resources/assets/skold_svart_thumb.png",
+      "style": "color:#ff9800"
+    },
+    {
+      "name": "DUrn",
+      "description": "Röstningssystem vid urnval.",
+      "link": "https://durn.datasektionen.se/",
+      "img": "https://durn.datasektionen.se/public/favicon.png",
+      "style": "color:#ec5f99"
+    },
+    {
+      "name": "Metaspexet",
+      "description": "Datas och Medias spex!",
+      "link": "https://metaspexet.se/",
+      "img": "https://metaspexet.se/images/favicon.svg",
+      "img-style": "background-color: #6f1d1b; border: 2px solid #6f1d1b; border-radius: 50%",
+      "style": "color:#ec5f99"
+    },
+    {
+      "name": "DKM",
+      "description": "Datasektionens klubbmästeri.",
+      "link": "http://dkm.io/",
+      "img": "http://dkm.io/favicon.ico",
+      "style": "color:#000000"
+    },
+    {
+      "name": "Duckumentation",
+      "description": "Dokumentation av API:er",
+      "link": "https://duckumentation.datasektionen.se/",
+      "img": "https://duckumentation.datasektionen.se/images/icons/favicon-96x96.png",
+      "style": "color:#4caf50"
+    },
+    {
+      "name": "dJulkalendern",
+      "description": "Vem är bäst på att data&trade;?",
+      "link": "https://djulkalendern.se",
+      "img": "https://djulkalendern.se/favicon.png",
+      "style": "color:#B90e0a"
+    },
+    {
+      "name": "Pico",
+      "description": "Länkförkortare",
+      "link": "https://dsekt.se",
+      "img": "https://dsekt.se/favicon-96x96.png",
+      "style": "color:#03a9f4"
+    }
+  ]
+}
