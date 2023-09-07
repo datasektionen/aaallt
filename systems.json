@@ -67,7 +67,8 @@
       "name": "Budgetsystemet",
       "description": "Se vad sektionen gör av sina pengar",
       "link": "https://budget.datasektionen.se",
-      "img": "https://budget.datasektionen.se/images/icons/favicon-96x96.png"
+      "img": "https://budget.datasektionen.se/images/icons/favicon-96x96.png",
+      "style": "color:#3d3846"
     },
     {
       "name": "META-TV",
@@ -129,7 +130,7 @@
       "description": "Röstningssystem vid urnval.",
       "link": "https://durn.datasektionen.se/",
       "img": "https://durn.datasektionen.se/public/favicon.png",
-      "style": "color:#ec5f99"
+      "style": "color:#0033cc"
     },
     {
       "name": "Metaspexet",
@@ -137,7 +138,7 @@
       "link": "https://metaspexet.se/",
       "img": "https://metaspexet.se/images/favicon.svg",
       "img-style": "background-color: #6f1d1b; border: 2px solid #6f1d1b; border-radius: 50%",
-      "style": "color:#ec5f99"
+      "style": "color:#800000"
     },
     {
       "name": "DKM",
