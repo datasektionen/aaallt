@@ -16,10 +16,17 @@
     },
     {
       "name": "Bokningssystemet",
-      "description": "Boka META, Mötesrummet, Sektionsbilen eller kameran",
+      "description": "Boka META, Mötesrummet, Sektionsbilen, kameran, eller annat",
       "link": "https://bokning.datasektionen.se",
       "img": "https://bokning.datasektionen.se/logos/favicon-96x96.png",
       "style": "color:#03a9f4"
+    },
+    {
+      "name": "Valsystemet",
+      "description": "Se till att någon tar ansvar",
+      "link": "https://val.datasektionen.se",
+      "img": "https://val.datasektionen.se/images/logos/favicon-96x96.png",
+      "style": "color:#07d"
     },
     {
       "name": "Status",
@@ -27,6 +34,13 @@
       "link": "https://status.datasektionen.se",
       "img": "https://userfiles.uptimerobot.com/img/623458-1649958820-icon.png",
       "style": "color:#32cd32"
+    },
+    {
+      "name": "Verksamt",
+      "description": "Verksamhetsplanen i ett smidigt format",
+      "link": "https://verksamt.datasektionen.se",
+      "img": "https://verksamt.datasektionen.se/static/images/icons/favicon-96x96.png",
+      "style": "color:#5c6bc0"
     },
     {
       "name": "Dfunkt",
@@ -91,6 +105,13 @@
       "style": "color:#ec5f99"
     },
     {
+      "name": "/dev/audio",
+      "description": "Starkt är vackert",
+      "link": "https://audio.datasektionen.se",
+      "img": "https://audio.datasektionen.se/favicon-32x32.png",
+      "style": "color:#ff7043"
+    },
+    {
       "name": "Yoggi",
       "description": "Ladda upp statiska filer i sektionssyfte",
       "link": "https://static.datasektionen.se",
@@ -118,15 +139,22 @@
       "style": "color:#7e57c2"
     },
     {
+      "name": "Styrdokument",
+      "description": "Datasektionens stadgar, reglemente och policydokument",
+      "link": "https://styrdokument.datasektionen.se",
+      "img": "https://styrdokument.datasektionen.se/static/favicon-96x96.png",
+      "style": "color:#ff9800"
+    },
+    {
       "name": "Sektionswikin",
       "description": "Datasektionens wiki. Här hittar du massvis ackumulerad kunskap. Har du en fråga hur du gör något? Kolla här!",
-      "link": "https://wiki.datasektionen.se/",
+      "link": "https://wiki.datasektionen.se",
       "img": "https://wiki.datasektionen.se/resources/assets/skold_svart_thumb.png",
       "style": "color:#ff9800"
     },
     {
       "name": "DUrn",
-      "description": "Röstningssystem vid urnval.",
+      "description": "Röstningssystem vid urnval",
       "link": "https://durn.datasektionen.se/",
       "img": "https://durn.datasektionen.se/public/favicon.png",
       "style": "color:#ec5f99"
@@ -140,8 +168,15 @@
       "style": "color:#ec5f99"
     },
     {
+      "name": "Damm",
+      "description": "Datasektionens historia",
+      "link": "https://damm.datasektionen.se",
+      "img": "https://damm.datasektionen.se/images/icons/favicon-96x96.png",
+      "style": "color:#000000"
+    },
+    {
       "name": "DKM",
-      "description": "Datasektionens klubbmästeri.",
+      "description": "Datasektionens klubbmästeri",
       "link": "http://dkm.io/",
       "img": "http://dkm.io/favicon.ico",
       "style": "color:#000000"
@@ -152,6 +187,13 @@
       "link": "https://duckumentation.datasektionen.se/",
       "img": "https://duckumentation.datasektionen.se/images/icons/favicon-96x96.png",
       "style": "color:#4caf50"
+    },
+    {
+      "name": "GitHub",
+      "description": "Datasektionens GitHub",
+      "link": "https://github.com/datasektionen",
+      "img": "https://github.com/favicon.ico",
+      "style": "color:#000"
     },
     {
       "name": "dJulkalendern",
