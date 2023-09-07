@@ -155,14 +155,14 @@
     {
       "name": "DUrn",
       "description": "Röstningssystem vid urnval",
-      "link": "https://durn.datasektionen.se/",
+      "link": "https://durn.datasektionen.se",
       "img": "https://durn.datasektionen.se/public/favicon.png",
       "style": "color:#ec5f99"
     },
     {
       "name": "Metaspexet",
       "description": "Datas och Medias spex!",
-      "link": "https://metaspexet.se/",
+      "link": "https://metaspexet.se",
       "img": "https://metaspexet.se/images/favicon.svg",
       "img-style": "background-color: #6f1d1b; border: 2px solid #6f1d1b; border-radius: 50%",
       "style": "color:#ec5f99"
@@ -177,14 +177,14 @@
     {
       "name": "DKM",
       "description": "Datasektionens klubbmästeri",
-      "link": "http://dkm.io/",
+      "link": "http://dkm.io",
       "img": "http://dkm.io/favicon.ico",
       "style": "color:#000000"
     },
     {
       "name": "Duckumentation",
       "description": "Dokumentation av API:er",
-      "link": "https://duckumentation.datasektionen.se/",
+      "link": "https://duckumentation.datasektionen.se",
       "img": "https://duckumentation.datasektionen.se/images/icons/favicon-96x96.png",
       "style": "color:#4caf50"
     },
