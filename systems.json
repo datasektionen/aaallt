@@ -161,6 +161,13 @@
       "style": "color:#0033cc"
     },
     {
+      "name": "smUrn",
+      "description": "Röstningssystem vid SM",
+      "link": "https://smurn.datasektionen.se",
+      "img": "https://smurn.datasektionen.se/public/favicon-sm.png",
+      "style": "color:#be165c"
+    },
+    {
       "name": "Metaspexet",
       "description": "Datas och Medias spex!",
       "link": "https://metaspexet.se",
