@@ -57,13 +57,6 @@
       "style": "color:#ec5f99"
     },
     {
-      "name": "Mentometer",
-      "description": "Säg ja, nej eller kanske",
-      "link": "https://mentometer.datasektionen.se",
-      "img": "https://mentometer.datasektionen.se/images/icons/favicon-96x96.png",
-      "style": "color: #ef5350"
-    },
-    {
       "name": "Aaallt",
       "description": "Det här \"systemet\"",
       "link": "https://aaallt.datasektionen.se",
